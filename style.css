@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+
+.loader{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;    
+    background-color: azure;
+    margin : 10px;
+    animation: loader 3s linear infinite ;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg) translateY(-100px)  ;
+    }
+
+    100% {
+        transform:rotate(360deg) translateY(-100px) ;
+    }
+}
